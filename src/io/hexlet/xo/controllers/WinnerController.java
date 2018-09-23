@@ -43,6 +43,7 @@ public class WinnerController {
                 return false;
 
             nextFigure = field.getFigure(nextPoint);
+
         } catch (final InvalidPointException e) {
             return true;
         }
